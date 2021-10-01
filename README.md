@@ -62,7 +62,6 @@ console.log(v4()); // eb4ffe32-2232-422a-933f-b905c0dfea84
 |                       | node12 | node14 | node16 |
 | --------------------- | ------ | ------ | ------ |
 | Windows x64           | ✓      | ✓      | ✓      |
-| Windows x32           | ✓      | ✓      | ✓      |
 | Windows arm64         | ✓      | ✓      | ✓      |
 | macOS x64             | ✓      | ✓      | ✓      |
 | macOS arm64 (m chips) | ✓      | ✓      | ✓      |

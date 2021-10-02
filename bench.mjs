@@ -1,3 +1,5 @@
+import { randomUUID } from 'crypto'
+
 import b from 'benny'
 import { nanoid as nanoidJs } from 'nanoid'
 import * as uuid from 'uuid'
@@ -6,6 +8,9 @@ import { isV4, v4 } from './index.js'
 
 await b.suite(
   'UID string',
+  b.add('crypto.randomUUID', () => {
+    randomUUID()
+  }),
   b.add('napi-uuid-v4', () => {
     v4()
   }),

@@ -130,7 +130,7 @@ jobs:
           name: bindings-${{ matrix.settings.target }}
           path: uuid.*.node
   build-freebsd:
-    runs-on: macos-latest
+    runs-on: macos-10.15
     name: Build FreeBSD
     steps:
       - uses: actions/checkout@v2

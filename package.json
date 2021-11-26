@@ -23,16 +23,13 @@
     "index.d.ts"
   ],
   "license": "MIT",
-  "dependencies": {
-    "@node-rs/helper": "^1.2.1"
-  },
   "devDependencies": {
     "@napi-rs/cli": "^2.0.0-alpha.1",
-    "@node-rs/deno-lint": "^1.9.2",
+    "@node-rs/deno-lint": "^1.10.3",
     "ava": "^3.15.0",
-    "benny": "^3.6.15",
+    "benny": "^3.7.1",
     "conventional-changelog-cli": "^2.1.1",
-    "nanoid": "^3.1.28",
+    "nanoid": "^3.1.30",
     "uuid": "^8.3.2"
   },
   "engines": {
@@ -40,7 +37,7 @@
   },
   "scripts": {
     "artifacts": "napi artifacts",
-    "build": "napi build --platform --release --dts uuid.d.ts",
+    "build": "napi build --platform --release",
     "build:debug": "napi build --platform",
     "lint": "denolint .",
     "prepublishOnly": "napi prepublish -t npm",

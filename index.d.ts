@@ -1,2 +1,9 @@
-export function isV4(): boolean
-export * from './uuid'
+/* eslint-disable */
+
+export class ExternalObject<T> {
+  readonly '': {
+    readonly '': unique symbol
+    [K: symbol]: T
+  }
+}
+export function v4(): string

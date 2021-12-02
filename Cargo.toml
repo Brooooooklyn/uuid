@@ -8,7 +8,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 napi = {version = "2.0.0-beta.1"}
-napi-derive = {version = "2.0.0-alpha.10"}
+napi-derive = {version = "2.0.0-beta.1"}
 uuid = {version = "0.8", features = ["v4"]}
 
 [build-dependencies]

@@ -1,15 +1,15 @@
 {
-  "name": "@napi-rs/uuid-linux-arm-gnueabihf",
+  "name": "@napi-rs/uuid-android-arm-eabi",
   "version": "0.1.0",
   "os": [
-    "linux"
+    "android"
   ],
   "cpu": [
     "arm"
   ],
-  "main": "uuid.linux-arm-gnueabihf.node",
+  "main": "uuid.android-arm-eabi.node",
   "files": [
-    "uuid.linux-arm-gnueabihf.node"
+    "uuid.android-arm-eabi.node"
   ],
   "license": "MIT",
   "engines": {

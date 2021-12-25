@@ -1,3 +1,17 @@
+# [0.2.0](https://github.com/Brooooooklyn/uuid/compare/v0.1.0...v0.2.0) (2021-12-25)
+
+
+### Bug Fixes
+
+* test should not contain isV4 ([a22e9c4](https://github.com/Brooooooklyn/uuid/commit/a22e9c48eae46db7016b4fe481eef7f942bb6794))
+
+
+### Features
+
+* upgrade to napi 2 ([a46d3a2](https://github.com/Brooooooklyn/uuid/commit/a46d3a29bd53557b525bacd0f4092954a6caeeee))
+
+
+
 # 0.1.0 (2021-10-01)
 
 ## First release 🎉

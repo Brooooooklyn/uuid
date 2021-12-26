@@ -23,18 +23,21 @@ Running "UID string" suite...
 Progress: 100%
 
   crypto.randomUUID:
-    737 523 ops/s, ±4.21%      | slowest, 93.34% slower
+    810 767 ops/s, ±0.50%      | slowest, 92.69% slower
 
   napi-uuid-v4:
-    11 067 865 ops/s, ±0.37%   | fastest
+    11 084 015 ops/s, ±0.43%   | fastest
+
+  @lukeed/uuid:
+    7 506 916 ops/s, ±0.69%    | 32.27% slower
 
   nanoid:
-    6 105 697 ops/s, ±0.72%    | 44.83% slower
+    5 736 698 ops/s, ±0.54%    | 48.24% slower
 
   uuid-js:
-    1 886 725 ops/s, ±0.38%    | 82.95% slower
+    1 855 307 ops/s, ±0.30%    | 83.26% slower
 
-Finished 4 cases!
+Finished 5 cases!
   Fastest: napi-uuid-v4
   Slowest: crypto.randomUUID
 ```

@@ -12,7 +12,7 @@ napi-derive = {version = "2", default-features = false, features = ["type-def"]}
 uuid = {version = "1", default-features = false, features = ["v4", "fast-rng"]}
 
 [build-dependencies]
-napi-build = "1"
+napi-build = "2"
 
 [profile.release]
 codegen-units = 1

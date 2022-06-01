@@ -66,13 +66,13 @@ __metadata:
   linkType: hard
 
 "@babel/highlight@npm:^7.16.7":
-  version: 7.17.9
-  resolution: "@babel/highlight@npm:7.17.9"
+  version: 7.17.12
+  resolution: "@babel/highlight@npm:7.17.12"
   dependencies:
     "@babel/helper-validator-identifier": ^7.16.7
     chalk: ^2.0.0
     js-tokens: ^4.0.0
-  checksum: 7bdf10228f2e4d18f48f114411ed584380d356e7c168d7582c14abd8df9909b2fc09e0a7cd334f47c3eb0bc17e639e0c8d9688c6afd5d09a2bdbf0ac193b11fd
+  checksum: 841a11aa353113bcce662b47085085a379251bf8b09054e37e1e082da1bf0d59355a556192a6b5e9ee98e8ee6f1f2831ac42510633c5e7043e3744dda2d6b9d6
   languageName: node
   linkType: hard
 
@@ -107,11 +107,11 @@ __metadata:
   linkType: hard
 
 "@napi-rs/cli@npm:^2.6.2":
-  version: 2.8.0
-  resolution: "@napi-rs/cli@npm:2.8.0"
+  version: 2.9.0
+  resolution: "@napi-rs/cli@npm:2.9.0"
   bin:
     napi: scripts/index.js
-  checksum: 1fcf9ee3418833c539a5e9b200ed5fc979d949d0bff28ee8e35dc40f473b56b524515a64c37e2763ce75647e621a5d99405a5553cedfe499c48eb0da7bf62237
+  checksum: 2a7dfbf5e12ed72c556a5cfa18028137d8f32ba132218f5d9096263b3512ac9e831090ef2937806d2dd4ca35a44ba6fd22d5f30b7d46c06fa5c0945def507609
   languageName: node
   linkType: hard
 
@@ -130,116 +130,116 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@node-rs/deno-lint-android-arm-eabi@npm:1.13.0":
-  version: 1.13.0
-  resolution: "@node-rs/deno-lint-android-arm-eabi@npm:1.13.0"
+"@node-rs/deno-lint-android-arm-eabi@npm:1.13.1":
+  version: 1.13.1
+  resolution: "@node-rs/deno-lint-android-arm-eabi@npm:1.13.1"
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-android-arm64@npm:1.13.0":
-  version: 1.13.0
-  resolution: "@node-rs/deno-lint-android-arm64@npm:1.13.0"
+"@node-rs/deno-lint-android-arm64@npm:1.13.1":
+  version: 1.13.1
+  resolution: "@node-rs/deno-lint-android-arm64@npm:1.13.1"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-darwin-arm64@npm:1.13.0":
-  version: 1.13.0
-  resolution: "@node-rs/deno-lint-darwin-arm64@npm:1.13.0"
+"@node-rs/deno-lint-darwin-arm64@npm:1.13.1":
+  version: 1.13.1
+  resolution: "@node-rs/deno-lint-darwin-arm64@npm:1.13.1"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-darwin-x64@npm:1.13.0":
-  version: 1.13.0
-  resolution: "@node-rs/deno-lint-darwin-x64@npm:1.13.0"
+"@node-rs/deno-lint-darwin-x64@npm:1.13.1":
+  version: 1.13.1
+  resolution: "@node-rs/deno-lint-darwin-x64@npm:1.13.1"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-freebsd-x64@npm:1.13.0":
-  version: 1.13.0
-  resolution: "@node-rs/deno-lint-freebsd-x64@npm:1.13.0"
+"@node-rs/deno-lint-freebsd-x64@npm:1.13.1":
+  version: 1.13.1
+  resolution: "@node-rs/deno-lint-freebsd-x64@npm:1.13.1"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-linux-arm-gnueabihf@npm:1.13.0":
-  version: 1.13.0
-  resolution: "@node-rs/deno-lint-linux-arm-gnueabihf@npm:1.13.0"
+"@node-rs/deno-lint-linux-arm-gnueabihf@npm:1.13.1":
+  version: 1.13.1
+  resolution: "@node-rs/deno-lint-linux-arm-gnueabihf@npm:1.13.1"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-linux-arm64-gnu@npm:1.13.0":
-  version: 1.13.0
-  resolution: "@node-rs/deno-lint-linux-arm64-gnu@npm:1.13.0"
-  conditions: os=linux & cpu=arm64
+"@node-rs/deno-lint-linux-arm64-gnu@npm:1.13.1":
+  version: 1.13.1
+  resolution: "@node-rs/deno-lint-linux-arm64-gnu@npm:1.13.1"
+  conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-linux-arm64-musl@npm:1.13.0":
-  version: 1.13.0
-  resolution: "@node-rs/deno-lint-linux-arm64-musl@npm:1.13.0"
-  conditions: os=linux & cpu=arm64
+"@node-rs/deno-lint-linux-arm64-musl@npm:1.13.1":
+  version: 1.13.1
+  resolution: "@node-rs/deno-lint-linux-arm64-musl@npm:1.13.1"
+  conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-linux-x64-gnu@npm:1.13.0":
-  version: 1.13.0
-  resolution: "@node-rs/deno-lint-linux-x64-gnu@npm:1.13.0"
-  conditions: os=linux & cpu=x64
+"@node-rs/deno-lint-linux-x64-gnu@npm:1.13.1":
+  version: 1.13.1
+  resolution: "@node-rs/deno-lint-linux-x64-gnu@npm:1.13.1"
+  conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-linux-x64-musl@npm:1.13.0":
-  version: 1.13.0
-  resolution: "@node-rs/deno-lint-linux-x64-musl@npm:1.13.0"
-  conditions: os=linux & cpu=x64
+"@node-rs/deno-lint-linux-x64-musl@npm:1.13.1":
+  version: 1.13.1
+  resolution: "@node-rs/deno-lint-linux-x64-musl@npm:1.13.1"
+  conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-win32-arm64-msvc@npm:1.13.0":
-  version: 1.13.0
-  resolution: "@node-rs/deno-lint-win32-arm64-msvc@npm:1.13.0"
+"@node-rs/deno-lint-win32-arm64-msvc@npm:1.13.1":
+  version: 1.13.1
+  resolution: "@node-rs/deno-lint-win32-arm64-msvc@npm:1.13.1"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-win32-ia32-msvc@npm:1.13.0":
-  version: 1.13.0
-  resolution: "@node-rs/deno-lint-win32-ia32-msvc@npm:1.13.0"
+"@node-rs/deno-lint-win32-ia32-msvc@npm:1.13.1":
+  version: 1.13.1
+  resolution: "@node-rs/deno-lint-win32-ia32-msvc@npm:1.13.1"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-win32-x64-msvc@npm:1.13.0":
-  version: 1.13.0
-  resolution: "@node-rs/deno-lint-win32-x64-msvc@npm:1.13.0"
+"@node-rs/deno-lint-win32-x64-msvc@npm:1.13.1":
+  version: 1.13.1
+  resolution: "@node-rs/deno-lint-win32-x64-msvc@npm:1.13.1"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
 "@node-rs/deno-lint@npm:^1.13.0":
-  version: 1.13.0
-  resolution: "@node-rs/deno-lint@npm:1.13.0"
+  version: 1.13.1
+  resolution: "@node-rs/deno-lint@npm:1.13.1"
   dependencies:
-    "@node-rs/deno-lint-android-arm-eabi": 1.13.0
-    "@node-rs/deno-lint-android-arm64": 1.13.0
-    "@node-rs/deno-lint-darwin-arm64": 1.13.0
-    "@node-rs/deno-lint-darwin-x64": 1.13.0
-    "@node-rs/deno-lint-freebsd-x64": 1.13.0
-    "@node-rs/deno-lint-linux-arm-gnueabihf": 1.13.0
-    "@node-rs/deno-lint-linux-arm64-gnu": 1.13.0
-    "@node-rs/deno-lint-linux-arm64-musl": 1.13.0
-    "@node-rs/deno-lint-linux-x64-gnu": 1.13.0
-    "@node-rs/deno-lint-linux-x64-musl": 1.13.0
-    "@node-rs/deno-lint-win32-arm64-msvc": 1.13.0
-    "@node-rs/deno-lint-win32-ia32-msvc": 1.13.0
-    "@node-rs/deno-lint-win32-x64-msvc": 1.13.0
+    "@node-rs/deno-lint-android-arm-eabi": 1.13.1
+    "@node-rs/deno-lint-android-arm64": 1.13.1
+    "@node-rs/deno-lint-darwin-arm64": 1.13.1
+    "@node-rs/deno-lint-darwin-x64": 1.13.1
+    "@node-rs/deno-lint-freebsd-x64": 1.13.1
+    "@node-rs/deno-lint-linux-arm-gnueabihf": 1.13.1
+    "@node-rs/deno-lint-linux-arm64-gnu": 1.13.1
+    "@node-rs/deno-lint-linux-arm64-musl": 1.13.1
+    "@node-rs/deno-lint-linux-x64-gnu": 1.13.1
+    "@node-rs/deno-lint-linux-x64-musl": 1.13.1
+    "@node-rs/deno-lint-win32-arm64-msvc": 1.13.1
+    "@node-rs/deno-lint-win32-ia32-msvc": 1.13.1
+    "@node-rs/deno-lint-win32-x64-msvc": 1.13.1
     clipanion: ^3.1.0
-    typanion: ^3.7.1
+    typanion: ^3.8.0
   dependenciesMeta:
     "@node-rs/deno-lint-android-arm-eabi":
       optional: true
@@ -269,7 +269,7 @@ __metadata:
       optional: true
   bin:
     denolint: bin.js
-  checksum: d3544bcde6bb87ec2d33ff98bd614e085b8bb7b927256c7f338a3a6b2b3da7a4c812525406b03c658c12d5622de6616ad9ceea864e9dac1faa7822ac383287ea
+  checksum: 4df3412c064938a292ead39b6262edb4738ccc0f27344e0d4dbf05caa185ca5e3e9063b6f6b00bbeb1727e68b8af30d002e5c2f0cee74b63e93d6cd147ebe549
   languageName: node
   linkType: hard
 
@@ -692,9 +692,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cacache@npm:^16.0.2":
-  version: 16.0.7
-  resolution: "cacache@npm:16.0.7"
+"cacache@npm:^16.1.0":
+  version: 16.1.0
+  resolution: "cacache@npm:16.1.0"
   dependencies:
     "@npmcli/fs": ^2.1.0
     "@npmcli/move-file": ^2.0.0
@@ -714,7 +714,7 @@ __metadata:
     ssri: ^9.0.0
     tar: ^6.1.11
     unique-filename: ^1.1.1
-  checksum: 2155b099b7e0f0369fb1155ca4673532ca7efe2ebdbec63acca8743580b8446b5d4fd7184626b1cb059001af77b981cdc67035c7855544d365d4f048eafca2ca
+  checksum: ddfcf92f079f24ccecef4e2ca1e4428443787b61429b921803b020fd0f33d9ac829ac47837b74b40868d8ae4f1b2ed82e164cdaa5508fbd790eee005a9d88469
   languageName: node
   linkType: hard
 
@@ -1261,8 +1261,8 @@ __metadata:
   linkType: hard
 
 "del@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "del@npm:6.0.0"
+  version: 6.1.1
+  resolution: "del@npm:6.1.1"
   dependencies:
     globby: ^11.0.1
     graceful-fs: ^4.2.4
@@ -1272,7 +1272,7 @@ __metadata:
     p-map: ^4.0.0
     rimraf: ^3.0.2
     slash: ^3.0.0
-  checksum: 5742891627e91aaf62385714025233f4664da28bc55b6ab825649dcdea4691fed3cf329a2b1913fd2d2612e693e99e08a03c84cac7f36ef54bacac9390520192
+  checksum: 563288b73b8b19a7261c47fd21a330eeab6e2acd7c6208c49790dfd369127120dd7836cdf0c1eca216b77c94782a81507eac6b4734252d3bef2795cb366996b6
   languageName: node
   linkType: hard
 
@@ -1643,29 +1643,29 @@ __metadata:
   linkType: hard
 
 "glob@npm:^7.1.3, glob@npm:^7.1.4":
-  version: 7.2.0
-  resolution: "glob@npm:7.2.0"
+  version: 7.2.3
+  resolution: "glob@npm:7.2.3"
   dependencies:
     fs.realpath: ^1.0.0
     inflight: ^1.0.4
     inherits: 2
-    minimatch: ^3.0.4
+    minimatch: ^3.1.1
     once: ^1.3.0
     path-is-absolute: ^1.0.0
-  checksum: 78a8ea942331f08ed2e055cb5b9e40fe6f46f579d7fd3d694f3412fe5db23223d29b7fee1575440202e9a7ff9a72ab106a39fee39934c7bedafe5e5f8ae20134
+  checksum: 29452e97b38fa704dabb1d1045350fb2467cf0277e155aa9ff7077e90ad81d1ea9d53d3ee63bd37c05b09a065e90f16aec4a65f5b8de401d1dac40bc5605d133
   languageName: node
   linkType: hard
 
 "glob@npm:^8.0.1":
-  version: 8.0.2
-  resolution: "glob@npm:8.0.2"
+  version: 8.0.3
+  resolution: "glob@npm:8.0.3"
   dependencies:
     fs.realpath: ^1.0.0
     inflight: ^1.0.4
     inherits: 2
     minimatch: ^5.0.1
     once: ^1.3.0
-  checksum: 9897d6d445711c23c54353b30b5c93db2453204d5d5e65d57f9f6759afd95bb9add91a7ce9fd2f332b20ae06fba291ff64fffd68b6ac9b97440647c396a80b51
+  checksum: 50bcdea19d8e79d8de5f460b1939ffc2b3299eac28deb502093fdca22a78efebc03e66bf54f0abc3d3d07d8134d19a32850288b7440d77e072aa55f9d33b18c5
   languageName: node
   linkType: hard
 
@@ -2239,11 +2239,11 @@ __metadata:
   linkType: hard
 
 "make-fetch-happen@npm:^10.0.3":
-  version: 10.1.3
-  resolution: "make-fetch-happen@npm:10.1.3"
+  version: 10.1.6
+  resolution: "make-fetch-happen@npm:10.1.6"
   dependencies:
     agentkeepalive: ^4.2.1
-    cacache: ^16.0.2
+    cacache: ^16.1.0
     http-cache-semantics: ^4.1.0
     http-proxy-agent: ^5.0.0
     https-proxy-agent: ^5.0.0
@@ -2258,7 +2258,7 @@ __metadata:
     promise-retry: ^2.0.1
     socks-proxy-agent: ^6.1.1
     ssri: ^9.0.0
-  checksum: 14b9bc5fb65a1a1f53b4579c947d1ebdb18db71eb0b35a2eab612e9642a14127917528fe4ffb2c37aaa0d27dfd7507e4044e6e2e47b43985e8fa18722f535b8f
+  checksum: e75fb1209222404a803e0432cabf20dfccf35e78b32340a4f1ac18eb6faf9e42b2e600a3488261d71f455773581af8e1d615a881f50e5bd5d5efc2ae6ec7a8ee
   languageName: node
   linkType: hard
 
@@ -2370,7 +2370,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^3.0.4":
+"minimatch@npm:^3.1.1":
   version: 3.1.2
   resolution: "minimatch@npm:3.1.2"
   dependencies:
@@ -2380,11 +2380,11 @@ __metadata:
   linkType: hard
 
 "minimatch@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "minimatch@npm:5.0.1"
+  version: 5.1.0
+  resolution: "minimatch@npm:5.1.0"
   dependencies:
     brace-expansion: ^2.0.1
-  checksum: b34b98463da4754bc526b244d680c69d4d6089451ebe512edaf6dd9eeed0279399cfa3edb19233513b8f830bf4bfcad911dddcdf125e75074100d52f724774f0
+  checksum: 15ce53d31a06361e8b7a629501b5c75491bc2b59712d53e802b1987121d91b433d73fcc5be92974fde66b2b51d8fb28d75a9ae900d249feb792bb1ba2a4f0a90
   languageName: node
   linkType: hard
 
@@ -2708,18 +2708,18 @@ __metadata:
   linkType: hard
 
 "p-map@npm:^5.3.0":
-  version: 5.3.0
-  resolution: "p-map@npm:5.3.0"
+  version: 5.4.0
+  resolution: "p-map@npm:5.4.0"
   dependencies:
     aggregate-error: ^4.0.0
-  checksum: 744f47b110a8a4c0a302fcae901abcf4224f269239d14f5f1eb2bf790a96e68146ad1acba0b57d8aeff013d17b2145324d9b56c601284db324fa13816ee155ec
+  checksum: dbd6582860be6543dd7f0da5d0e2be2237d7172f3b431001c03c30b0384d6df6d03a06b90b53836ba4861abadb08da2b9ffb47f1707c68c3e2332b65ace8835c
   languageName: node
   linkType: hard
 
 "p-timeout@npm:^5.0.2":
-  version: 5.0.2
-  resolution: "p-timeout@npm:5.0.2"
-  checksum: 69eda717e2cbc3d831617a805e069ce69f8cbf51b70f1d1760d3d118536c6b891bbc74f758a4e0d337180ff053f65cdbfc9f5dd04f368ab38173e76f47cf13a8
+  version: 5.1.0
+  resolution: "p-timeout@npm:5.1.0"
+  checksum: f5cd4e17301ff1ff1d8dbf2817df0ad88c6bba99349fc24d8d181827176ad4f8aca649190b8a5b1a428dfd6ddc091af4606835d3e0cb0656e04045da5c9e270c
   languageName: node
   linkType: hard
 
@@ -3216,13 +3216,13 @@ __metadata:
   linkType: hard
 
 "socks-proxy-agent@npm:^6.1.1":
-  version: 6.2.0
-  resolution: "socks-proxy-agent@npm:6.2.0"
+  version: 6.2.1
+  resolution: "socks-proxy-agent@npm:6.2.1"
   dependencies:
     agent-base: ^6.0.2
     debug: ^4.3.3
     socks: ^2.6.2
-  checksum: 6723fd64fb50334e2b340fd0a80fd8488ffc5bc43d85b7cf1d25612044f814dd7d6ea417fd47602159941236f7f4bd15669fa5d7e1f852598a31288e1a43967b
+  checksum: 9ca089d489e5ee84af06741135c4b0d2022977dad27ac8d649478a114cdce87849e8d82b7c22b51501a4116e231241592946fc7fae0afc93b65030ee57084f58
   languageName: node
   linkType: hard
 
@@ -3303,11 +3303,11 @@ __metadata:
   linkType: hard
 
 "ssri@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "ssri@npm:9.0.0"
+  version: 9.0.1
+  resolution: "ssri@npm:9.0.1"
   dependencies:
     minipass: ^3.1.1
-  checksum: bf33174232d07cc64e77ab1c51b55d28352273380c503d35642a19627e88a2c5f160039bb0a28608a353485075dda084dbf0390c7070f9f284559eb71d01b84b
+  checksum: fb58f5e46b6923ae67b87ad5ef1c5ab6d427a17db0bead84570c2df3cd50b4ceb880ebdba2d60726588272890bae842a744e1ecce5bd2a2a582fccd5068309eb
   languageName: node
   linkType: hard
 
@@ -3509,10 +3509,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typanion@npm:^3.3.1, typanion@npm:^3.7.1":
-  version: 3.8.0
-  resolution: "typanion@npm:3.8.0"
-  checksum: ea3f97072c72efd4f1ac2c8996dad61e2a0810e6e2835f72b1e076e3f4c796666dc5f60af88329f3892173419a114b5d58a7369c16fdc46d76e3d9a55e8c486d
+"typanion@npm:^3.3.1, typanion@npm:^3.8.0":
+  version: 3.9.0
+  resolution: "typanion@npm:3.9.0"
+  checksum: db635975e86c50399fe019010e489a9adb24a74cd19b15efb1d0f434c7dccd842a9402a6a6d60e8ab6d9f7949fd8604a019802a022427e78dbbe2e74f143527b
   languageName: node
   linkType: hard
 
@@ -3744,8 +3744,8 @@ __metadata:
   linkType: hard
 
 "yargs@npm:^17.3.1":
-  version: 17.5.0
-  resolution: "yargs@npm:17.5.0"
+  version: 17.5.1
+  resolution: "yargs@npm:17.5.1"
   dependencies:
     cliui: ^7.0.2
     escalade: ^3.1.1
@@ -3754,7 +3754,7 @@ __metadata:
     string-width: ^4.2.3
     y18n: ^5.0.5
     yargs-parser: ^21.0.0
-  checksum: e2c662a7a63aa125a162cc0d77e38bdfe2a0dd5121a0d485a464499cd7782c5198b57103aed4608df96a017d01cb6a834bc22d4a1f20b92649fa82983d53522b
+  checksum: 00d58a2c052937fa044834313f07910fd0a115dec5ee35919e857eeee3736b21a4eafa8264535800ba8bac312991ce785ecb8a51f4d2cc8c4676d865af1cfbde
   languageName: node
   linkType: hard
 

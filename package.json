@@ -13,9 +13,10 @@
         "aarch64-unknown-linux-musl",
         "aarch64-pc-windows-msvc",
         "armv7-unknown-linux-gnueabihf",
-        "arm-linux-androideabi",
         "x86_64-unknown-linux-musl",
-        "x86_64-unknown-freebsd"
+        "x86_64-unknown-freebsd",
+        "i686-pc-windows-msvc",
+        "armv7-linux-androideabi"
       ]
     }
   },
@@ -28,12 +29,12 @@
   "license": "MIT",
   "devDependencies": {
     "@lukeed/uuid": "^2.0.0",
-    "@napi-rs/cli": "^2.6.2",
-    "@node-rs/deno-lint": "^1.13.0",
-    "ava": "^4.2.0",
+    "@napi-rs/cli": "^2.10.1",
+    "@node-rs/deno-lint": "^1.13.1",
+    "ava": "^4.3.1",
     "benny": "^3.7.1",
     "conventional-changelog-cli": "^2.2.2",
-    "nanoid": "^3.3.2",
+    "nanoid": "^4.0.0",
     "uuid": "^8.3.2"
   },
   "engines": {

@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/Brooooooklyn/uuid/compare/v0.2.1...v0.2.2) (2022-07-18)
+
+
+### Features
+
+* upgrade to uuid@1 ([#32](https://github.com/Brooooooklyn/uuid/issues/32)) ([09cd486](https://github.com/Brooooooklyn/uuid/commit/09cd486c9c80670333ce9bb4c4d301daabbab2d5))
+
+
+
 ## [0.2.1](https://github.com/Brooooooklyn/uuid/compare/v0.2.0...v0.2.1) (2022-04-18)
 
 

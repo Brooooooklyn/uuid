@@ -49,5 +49,5 @@
     "test": "ava",
     "version": "napi version && conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "yarn@3.2.2"
 }

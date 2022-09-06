@@ -26,6 +26,9 @@
     "uuid.js",
     "uuid.d.ts"
   ],
+  "ava": {
+    "timeout": "2m"
+  },
   "license": "MIT",
   "devDependencies": {
     "@lukeed/uuid": "^2.0.0",

@@ -7,6 +7,7 @@ use napi_derive::napi;
 static ALLOC: mimalloc_rust::GlobalMiMalloc = mimalloc_rust::GlobalMiMalloc;
 
 #[napi]
+#[inline(always)]
 pub fn v4() -> String {
   uuid::Uuid::new_v4().to_string()
 }

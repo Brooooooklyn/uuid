@@ -90,28 +90,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lukeed/csprng@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "@lukeed/csprng@npm:1.0.1"
-  checksum: fd84d6832775052d6bff3e78b0bc7f4b29b2fafa71b04826b0713f55d9a447a0b273d4eb70d02d89bb879e9d768cd9716da818dafa32ba6f7ecb639cbdc6806d
+"@lukeed/csprng@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@lukeed/csprng@npm:1.1.0"
+  checksum: 926f5f7fc629470ca9a8af355bfcd0271d34535f7be3890f69902432bddc3262029bb5dbe9025542cf6c9883d878692eef2815fc2f3ba5b92e9da1f9eba2e51b
   languageName: node
   linkType: hard
 
-"@lukeed/uuid@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@lukeed/uuid@npm:2.0.0"
+"@lukeed/uuid@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@lukeed/uuid@npm:2.0.1"
   dependencies:
-    "@lukeed/csprng": ^1.0.0
-  checksum: 7d55c0a9f26db9f63728db46f74948cf539f2690556cb30a9b21eb86d7ef48f184d4bfe808975e22fba0f493f5742f1e9adf97af9efe456049a6f82be83c71f6
+    "@lukeed/csprng": ^1.1.0
+  checksum: f5e71e4da852dbff49b93cad27d5a2f61c2241e307bbe89b3b54b889ecb7927f2487246467f90ebb6cbdb7e0ac2a213e2e58b1182cb7990cef6e049aa7c39e7b
   languageName: node
   linkType: hard
 
-"@napi-rs/cli@npm:^2.12.0":
-  version: 2.14.8
-  resolution: "@napi-rs/cli@npm:2.14.8"
+"@napi-rs/cli@npm:^2.15.2":
+  version: 2.15.2
+  resolution: "@napi-rs/cli@npm:2.15.2"
   bin:
     napi: scripts/index.js
-  checksum: 59ccab188d0e40a0591d7402624fa882928a967ffc6b9a6dbfc00acbb828ca292cab85a8e965492367f6ca0d0fab600831a7f4b7f0495c47830e3c6895fc4a07
+  checksum: dedcbd339f634e4a4c442febbfaee7c0fd907f3b8082c1f3ddba18b0e02ae2f0e4bff75688763669db5fb1a0f5ab26a7200cb6c01fe8825effd0a70a44bcbbc7
   languageName: node
   linkType: hard
 
@@ -119,126 +119,126 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@napi-rs/uuid@workspace:."
   dependencies:
-    "@lukeed/uuid": ^2.0.0
-    "@napi-rs/cli": ^2.12.0
-    "@node-rs/deno-lint": ^1.14.0
-    ava: ^5.0.0
+    "@lukeed/uuid": ^2.0.1
+    "@napi-rs/cli": ^2.15.2
+    "@node-rs/deno-lint": 1.16.0
+    ava: ^5.2.0
     benny: ^3.7.1
     conventional-changelog-cli: ^2.2.2
-    nanoid: ^4.0.0
+    nanoid: ^4.0.2
     uuid: ^9.0.0
   languageName: unknown
   linkType: soft
 
-"@node-rs/deno-lint-android-arm-eabi@npm:1.15.0":
-  version: 1.15.0
-  resolution: "@node-rs/deno-lint-android-arm-eabi@npm:1.15.0"
+"@node-rs/deno-lint-android-arm-eabi@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@node-rs/deno-lint-android-arm-eabi@npm:1.16.0"
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-android-arm64@npm:1.15.0":
-  version: 1.15.0
-  resolution: "@node-rs/deno-lint-android-arm64@npm:1.15.0"
+"@node-rs/deno-lint-android-arm64@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@node-rs/deno-lint-android-arm64@npm:1.16.0"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-darwin-arm64@npm:1.15.0":
-  version: 1.15.0
-  resolution: "@node-rs/deno-lint-darwin-arm64@npm:1.15.0"
+"@node-rs/deno-lint-darwin-arm64@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@node-rs/deno-lint-darwin-arm64@npm:1.16.0"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-darwin-x64@npm:1.15.0":
-  version: 1.15.0
-  resolution: "@node-rs/deno-lint-darwin-x64@npm:1.15.0"
+"@node-rs/deno-lint-darwin-x64@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@node-rs/deno-lint-darwin-x64@npm:1.16.0"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-freebsd-x64@npm:1.15.0":
-  version: 1.15.0
-  resolution: "@node-rs/deno-lint-freebsd-x64@npm:1.15.0"
+"@node-rs/deno-lint-freebsd-x64@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@node-rs/deno-lint-freebsd-x64@npm:1.16.0"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-linux-arm-gnueabihf@npm:1.15.0":
-  version: 1.15.0
-  resolution: "@node-rs/deno-lint-linux-arm-gnueabihf@npm:1.15.0"
+"@node-rs/deno-lint-linux-arm-gnueabihf@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@node-rs/deno-lint-linux-arm-gnueabihf@npm:1.16.0"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-linux-arm64-gnu@npm:1.15.0":
-  version: 1.15.0
-  resolution: "@node-rs/deno-lint-linux-arm64-gnu@npm:1.15.0"
+"@node-rs/deno-lint-linux-arm64-gnu@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@node-rs/deno-lint-linux-arm64-gnu@npm:1.16.0"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-linux-arm64-musl@npm:1.15.0":
-  version: 1.15.0
-  resolution: "@node-rs/deno-lint-linux-arm64-musl@npm:1.15.0"
+"@node-rs/deno-lint-linux-arm64-musl@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@node-rs/deno-lint-linux-arm64-musl@npm:1.16.0"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-linux-x64-gnu@npm:1.15.0":
-  version: 1.15.0
-  resolution: "@node-rs/deno-lint-linux-x64-gnu@npm:1.15.0"
+"@node-rs/deno-lint-linux-x64-gnu@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@node-rs/deno-lint-linux-x64-gnu@npm:1.16.0"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-linux-x64-musl@npm:1.15.0":
-  version: 1.15.0
-  resolution: "@node-rs/deno-lint-linux-x64-musl@npm:1.15.0"
+"@node-rs/deno-lint-linux-x64-musl@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@node-rs/deno-lint-linux-x64-musl@npm:1.16.0"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-win32-arm64-msvc@npm:1.15.0":
-  version: 1.15.0
-  resolution: "@node-rs/deno-lint-win32-arm64-msvc@npm:1.15.0"
+"@node-rs/deno-lint-win32-arm64-msvc@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@node-rs/deno-lint-win32-arm64-msvc@npm:1.16.0"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-win32-ia32-msvc@npm:1.15.0":
-  version: 1.15.0
-  resolution: "@node-rs/deno-lint-win32-ia32-msvc@npm:1.15.0"
+"@node-rs/deno-lint-win32-ia32-msvc@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@node-rs/deno-lint-win32-ia32-msvc@npm:1.16.0"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint-win32-x64-msvc@npm:1.15.0":
-  version: 1.15.0
-  resolution: "@node-rs/deno-lint-win32-x64-msvc@npm:1.15.0"
+"@node-rs/deno-lint-win32-x64-msvc@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@node-rs/deno-lint-win32-x64-msvc@npm:1.16.0"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@node-rs/deno-lint@npm:^1.14.0":
-  version: 1.15.0
-  resolution: "@node-rs/deno-lint@npm:1.15.0"
+"@node-rs/deno-lint@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@node-rs/deno-lint@npm:1.16.0"
   dependencies:
-    "@node-rs/deno-lint-android-arm-eabi": 1.15.0
-    "@node-rs/deno-lint-android-arm64": 1.15.0
-    "@node-rs/deno-lint-darwin-arm64": 1.15.0
-    "@node-rs/deno-lint-darwin-x64": 1.15.0
-    "@node-rs/deno-lint-freebsd-x64": 1.15.0
-    "@node-rs/deno-lint-linux-arm-gnueabihf": 1.15.0
-    "@node-rs/deno-lint-linux-arm64-gnu": 1.15.0
-    "@node-rs/deno-lint-linux-arm64-musl": 1.15.0
-    "@node-rs/deno-lint-linux-x64-gnu": 1.15.0
-    "@node-rs/deno-lint-linux-x64-musl": 1.15.0
-    "@node-rs/deno-lint-win32-arm64-msvc": 1.15.0
-    "@node-rs/deno-lint-win32-ia32-msvc": 1.15.0
-    "@node-rs/deno-lint-win32-x64-msvc": 1.15.0
-    clipanion: ^3.1.0
+    "@node-rs/deno-lint-android-arm-eabi": 1.16.0
+    "@node-rs/deno-lint-android-arm64": 1.16.0
+    "@node-rs/deno-lint-darwin-arm64": 1.16.0
+    "@node-rs/deno-lint-darwin-x64": 1.16.0
+    "@node-rs/deno-lint-freebsd-x64": 1.16.0
+    "@node-rs/deno-lint-linux-arm-gnueabihf": 1.16.0
+    "@node-rs/deno-lint-linux-arm64-gnu": 1.16.0
+    "@node-rs/deno-lint-linux-arm64-musl": 1.16.0
+    "@node-rs/deno-lint-linux-x64-gnu": 1.16.0
+    "@node-rs/deno-lint-linux-x64-musl": 1.16.0
+    "@node-rs/deno-lint-win32-arm64-msvc": 1.16.0
+    "@node-rs/deno-lint-win32-ia32-msvc": 1.16.0
+    "@node-rs/deno-lint-win32-x64-msvc": 1.16.0
+    clipanion: ^3.2.0
     typanion: ^3.12.1
   dependenciesMeta:
     "@node-rs/deno-lint-android-arm-eabi":
@@ -269,7 +269,7 @@ __metadata:
       optional: true
   bin:
     denolint: bin.js
-  checksum: 42c1b989cd77037f7578d47b04f5427a1deb582c7055478f86695b41a4e8f7b99eec7ae8e17b3335376c37b00a316ca5269ac520ea959b7bf624d9d3639fc0fb
+  checksum: 61d7c5013e8c8af198647dd06db0c08701643a4c811a7598b934f97982b11b3efd093f323393dd15328499c5517bb1585b9cd3e5e1c3e42da243ecb2561be8fe
   languageName: node
   linkType: hard
 
@@ -549,7 +549,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ava@npm:^5.0.0":
+"ava@npm:^5.2.0":
   version: 5.2.0
   resolution: "ava@npm:5.2.0"
   dependencies:
@@ -852,7 +852,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clipanion@npm:^3.1.0":
+"clipanion@npm:^3.2.0":
   version: 3.2.0
   resolution: "clipanion@npm:3.2.0"
   dependencies:
@@ -2503,12 +2503,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^4.0.0":
-  version: 4.0.1
-  resolution: "nanoid@npm:4.0.1"
+"nanoid@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "nanoid@npm:4.0.2"
   bin:
     nanoid: bin/nanoid.js
-  checksum: 21022a7910aa690cb05872c07f0c4a317dfe2aa79cc2b5e4ab41d17476e23d973d24c683206d6fa7e1b56bf657cf5dfbc0f1cac7d596bcd2dea0f49635316628
+  checksum: 747c399cea4664dd0be1d0ec498ffd1ef8f1f5221676fc8b577e3f46f66d9afcddb9595d63d19a2e78d0bc6cc33984f65e66bf1682c850b9e26288883d96b53f
   languageName: node
   linkType: hard
 

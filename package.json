@@ -4,21 +4,22 @@
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "uuid",
-    "triples": {
-      "additional": [
-        "aarch64-apple-darwin",
-        "aarch64-linux-android",
-        "aarch64-unknown-linux-gnu",
-        "aarch64-unknown-linux-musl",
-        "aarch64-pc-windows-msvc",
-        "armv7-unknown-linux-gnueabihf",
-        "x86_64-unknown-linux-musl",
-        "x86_64-unknown-freebsd",
-        "i686-pc-windows-msvc",
-        "armv7-linux-androideabi"
-      ]
-    }
+    "binaryName": "uuid",
+    "targets": [
+      "x86_64-apple-darwin",
+      "x86_64-pc-windows-msvc",
+      "x86_64-unknown-linux-gnu",
+      "aarch64-apple-darwin",
+      "aarch64-linux-android",
+      "aarch64-unknown-linux-gnu",
+      "aarch64-unknown-linux-musl",
+      "aarch64-pc-windows-msvc",
+      "armv7-unknown-linux-gnueabihf",
+      "x86_64-unknown-linux-musl",
+      "x86_64-unknown-freebsd",
+      "i686-pc-windows-msvc",
+      "armv7-linux-androideabi"
+    ]
   },
   "files": [
     "index.js",
@@ -32,13 +33,13 @@
   "license": "MIT",
   "devDependencies": {
     "@lukeed/uuid": "^2.0.1",
-    "@napi-rs/cli": "^2.15.2",
+    "@napi-rs/cli": "^3.0.0-alpha.24",
     "@node-rs/deno-lint": "1.17.3",
-    "ava": "^5.2.0",
+    "ava": "^6.0.1",
     "benny": "^3.7.1",
-    "conventional-changelog-cli": "^4.0.0",
-    "nanoid": "^5.0.0",
-    "uuid": "^9.0.0"
+    "conventional-changelog-cli": "^4.1.0",
+    "nanoid": "^5.0.4",
+    "uuid": "^9.0.1"
   },
   "engines": {
     "node": ">= 10"
@@ -52,5 +53,5 @@
     "test": "ava",
     "version": "napi version && conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
-  "packageManager": "yarn@3.7.0"
+  "packageManager": "yarn@4.0.2"
 }

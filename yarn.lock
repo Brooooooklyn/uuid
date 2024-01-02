@@ -129,8 +129,8 @@ __metadata:
   linkType: hard
 
 "@napi-rs/cli@npm:^3.0.0-alpha.24":
-  version: 3.0.0-alpha.24
-  resolution: "@napi-rs/cli@npm:3.0.0-alpha.24"
+  version: 3.0.0-alpha.29
+  resolution: "@napi-rs/cli@npm:3.0.0-alpha.29"
   dependencies:
     "@napi-rs/cross-toolchain": "npm:^0.0.14"
     "@octokit/rest": "npm:^20.0.2"
@@ -138,16 +138,16 @@ __metadata:
     clipanion: "npm:^3.2.1"
     colorette: "npm:^2.0.20"
     debug: "npm:^4.3.4"
-    emnapi: "npm:0.44.0"
+    emnapi: "npm:0.45.0"
     inquirer: "npm:^9.2.12"
     js-yaml: "npm:^4.1.0"
     lodash-es: "npm:^4.17.21"
     toml: "npm:^3.0.0"
     typanion: "npm:^3.14.0"
   peerDependencies:
-    "@emnapi/runtime": 0.44.0
-    "@tybys/wasm-util": 0.8.0
-    emnapi: 0.44.0
+    "@emnapi/runtime": ^0.45.0
+    "@tybys/wasm-util": ^0.8.0
+    emnapi: ^0.45.0
   peerDependenciesMeta:
     "@emnapi/runtime":
       optional: true
@@ -158,7 +158,7 @@ __metadata:
   bin:
     napi: dist/cli.js
     napi-raw: cli.mjs
-  checksum: 497088a9cca3b498921ac1c4ac16b507ca939b00db42fc01bfad47f9d994a82d5a40ca74eb02011911608569b2dbafbebdfeea67daffba86259a22221cf32ca9
+  checksum: 25ed4464d150d6a18dbbdf1ca25fd9351510f212597e9fc613dc5f74509e618935b3fa453edd3bc4c4d8c13319d5f3d5740671bca228599c1b9608d0a219ee44
   languageName: node
   linkType: hard
 
@@ -862,11 +862,11 @@ __metadata:
   linkType: hard
 
 "acorn@npm:^8.11.2, acorn@npm:^8.6.0":
-  version: 8.11.2
-  resolution: "acorn@npm:8.11.2"
+  version: 8.11.3
+  resolution: "acorn@npm:8.11.3"
   bin:
     acorn: bin/acorn
-  checksum: a3ed76c761b75ec54b1ec3068fb7f113a182e95aea7f322f65098c2958d232e3d211cb6dac35ff9c647024b63714bc528a26d54a925d1fef2c25585b4c8e4017
+  checksum: 3ff155f8812e4a746fee8ecff1f227d527c4c45655bb1fad6347c3cb58e46190598217551b1500f18542d2bbe5c87120cb6927f5a074a59166fbdd9468f0a299
   languageName: node
   linkType: hard
 
@@ -1703,15 +1703,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emnapi@npm:0.44.0":
-  version: 0.44.0
-  resolution: "emnapi@npm:0.44.0"
+"emnapi@npm:0.45.0":
+  version: 0.45.0
+  resolution: "emnapi@npm:0.45.0"
   peerDependencies:
     node-addon-api: ">= 6.1.0"
   peerDependenciesMeta:
     node-addon-api:
       optional: true
-  checksum: 26e6391479c80e3eb5234feb944370c963d7f851f1d3c7a140dea514809b690549ba110d09211b57763ad5f7e308180a3bcd745484faf5363eeb12b45079542b
+  checksum: 076411fc611c0e3f1c08a9260babbeac8094474d8a4174e6b9f27dc5ba569b51fd42c2513d17d4056680a680a575fb8c81f18259d7208327b53195bf3f58483b
   languageName: node
   linkType: hard
 
@@ -3385,9 +3385,9 @@ __metadata:
   linkType: hard
 
 "type-fest@npm:^4.2.0":
-  version: 4.8.3
-  resolution: "type-fest@npm:4.8.3"
-  checksum: 978edf5d00651e944b8c4d50f765a4cc09126e7fb90b46ed157265012e2f8aeb178c0ca493a175213ffa1705a795e4b5579c2ef4bc27bdd3462cdceccbf386f7
+  version: 4.9.0
+  resolution: "type-fest@npm:4.9.0"
+  checksum: 7e6423f7337928a7323ce8a68cfbbaf30ecb70b9c635207899e58297d219c71be4a8c50b52afb9fe09c9f44b2c4276d0a44bb95acabab7bc942455f980aad267
   languageName: node
   linkType: hard
 

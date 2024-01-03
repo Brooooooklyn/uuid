@@ -34,7 +34,7 @@
   "devDependencies": {
     "@lukeed/uuid": "^2.0.1",
     "@napi-rs/cli": "^3.0.0-alpha.24",
-    "@node-rs/deno-lint": "1.18.0",
+    "@node-rs/deno-lint": "1.18.1",
     "ava": "^6.0.1",
     "benny": "^3.7.1",
     "conventional-changelog-cli": "^4.1.0",

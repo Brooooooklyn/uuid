@@ -37,7 +37,7 @@
     "@node-rs/deno-lint": "1.20.4",
     "ava": "^6.0.1",
     "benny": "^3.7.1",
-    "conventional-changelog-cli": "^4.1.0",
+    "conventional-changelog-cli": "^5.0.0",
     "nanoid": "^5.0.4",
     "uuid": "^9.0.1"
   },

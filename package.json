@@ -50,6 +50,7 @@
     "build:debug": "napi build --platform  --js uuid.js --dts uuid.d.ts",
     "lint": "denolint .",
     "prepublishOnly": "napi prepublish -t npm",
+    "preversion": "napi build --platform && git add .",
     "test": "ava",
     "version": "napi version && conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },

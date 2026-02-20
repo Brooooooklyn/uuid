@@ -350,7 +350,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Download artifacts
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v7
         with:
           name: bindings-armv7-unknown-linux-gnueabihf
           path: .

@@ -344,8 +344,8 @@ jobs:
       fail-fast: false
       matrix:
         node:
+          - '20'
           - '22'
-          - '24'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -369,7 +369,7 @@ jobs:
       - name: Setup and run tests
         uses: addnab/docker-run-action@v3
         with:
-          image: node:${{ matrix.node }}-bookworm-slim
+          image: node:${{ matrix.node }}-bullseye-slim
           options: '--platform linux/arm/v7 -v ${{ github.workspace }}:/build -w /build'
           run: yarn test
   publish:

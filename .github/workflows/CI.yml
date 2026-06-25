@@ -66,7 +66,7 @@ jobs:
     name: stable - ${{ matrix.settings.target }} - node@22
     runs-on: ${{ matrix.settings.host }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Setup node
         uses: actions/setup-node@v6
         if: ${{ !matrix.settings.docker }}
@@ -120,7 +120,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build FreeBSD
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Build
         id: build
         uses: cross-platform-actions/action@v1.3.0
@@ -179,7 +179,7 @@ jobs:
           - '24'
     runs-on: ${{ matrix.settings.host }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Setup node
         uses: actions/setup-node@v6
         with:
@@ -209,7 +209,7 @@ jobs:
           - '24'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Setup node
         uses: actions/setup-node@v6
         with:
@@ -239,7 +239,7 @@ jobs:
           - '24'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Setup node
         uses: actions/setup-node@v6
         with:
@@ -271,7 +271,7 @@ jobs:
           - '24'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Download artifacts
         uses: actions/download-artifact@v8
         with:
@@ -311,7 +311,7 @@ jobs:
           - '22'
           - '24'
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Download artifacts
         uses: actions/download-artifact@v8
         with:
@@ -347,7 +347,7 @@ jobs:
           - '22'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Download artifacts
         uses: actions/download-artifact@v8
         with:
@@ -386,7 +386,7 @@ jobs:
       - test-linux-aarch64-musl-binding
       - test-linux-arm-gnueabihf-binding
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Setup node
         uses: actions/setup-node@v6
         with:

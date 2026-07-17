@@ -38,7 +38,7 @@
     "ava": "^8.0.0",
     "benny": "^3.7.1",
     "conventional-changelog-cli": "^5.0.0",
-    "nanoid": "^5.0.7",
+    "nanoid": "^6.0.0",
     "uuid": "^14.0.0"
   },
   "engines": {
